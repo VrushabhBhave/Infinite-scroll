@@ -35,12 +35,8 @@ function displayImages(images){
 
         if(index % 2 == 0){
             anchor.setAttribute("data-aos", "fade-right");
-            anchor.setAttribute("data-aos-offset", "100");
-            anchor.setAttribute("data-aos-easing", "ease-in-sine");
         }else{
             anchor.setAttribute("data-aos", "fade-left");
-            anchor.setAttribute("data-aos-offset", "100");
-            anchor.setAttribute("data-aos-easing", "ease-in-sine");
         }
 
         image.classList.add("image");
@@ -51,7 +47,7 @@ function displayImages(images){
     imageContainer.append(fregment);
     loader.style.display = "none";
     loaded = true;
-    // AOS.refresh();
+    AOS.refresh();
 }
 
 window.addEventListener("scroll", () => {
