@@ -33,11 +33,11 @@ function displayImages(images){
         image.alt = obj.urls.regular;
         image.title = obj.alt_description;
 
-        // if(index % 2 == 0){
-        //     anchor.setAttribute("data-aos", "fade-right");
-        // }else{
-        //     anchor.setAttribute("data-aos", "fade-left");
-        // }
+        if(index % 2 == 0){
+            anchor.setAttribute("data-aos", "fade-up");
+        }else{
+            anchor.setAttribute("data-aos", "fade-down");
+        }
 
         image.classList.add("image");
 
