@@ -36,7 +36,7 @@ function displayImages(images){
         if(index % 2 == 0){
             anchor.setAttribute("data-aos", "fade-up");
         }else{
-            anchor.setAttribute("data-aos", "fade-down");
+            anchor.setAttribute("data-aos", "fade-up");
         }
 
         image.classList.add("image");

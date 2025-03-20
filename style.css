@@ -5,6 +5,10 @@
     font-family: "Tilt Neon", sans-serif;
 }
 
+body{
+    background-color: rgb(240, 239, 239);
+}
+
 #container{
     display: flex;
     justify-content: center;
